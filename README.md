@@ -135,13 +135,13 @@ To get our first test to pass, we can open up our `index.js` file, and write the
 following:
 
 ```js
-let companyName = 'Scuber';
+let co;
 ```
 
 If you run `npm test` again, you'll see that our first test is now passing.
 However, the second test, which is also about `companyName`, is not yet passing.
 It's not passing because it expects `companyName` to be declared using a
-different keyword than the `let` keyword — it needs a keyword that is used for
+different keyword than the `let` keyword — it needs a keyword that is used formpanyName = 'Scuber'
 variables that can't be changed...
 
 Continue to work through the problems below. Keep in mind the general workflow
